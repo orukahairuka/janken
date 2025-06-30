@@ -29,25 +29,6 @@
 		3B4A7BD12E12BFFF00129355 /* jankenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jankenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3B4A7C072E12CA2D00129355 /* Exceptions for "jankenTests" folder in "jankenTests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"step4-game-logic/ContentView.swift",
-				"step4-game-logic/README.md",
-			);
-			target = 3B4A7BC62E12BFFF00129355 /* jankenTests */;
-		};
-		3B4A7C092E12CA3100129355 /* Exceptions for "jankenTests" folder in "janken" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"step4-game-logic/ContentView.swift",
-				"step4-game-logic/README.md",
-			);
-			target = 3B4A7BB92E12BFFD00129355 /* janken */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3B4A7BBC2E12BFFD00129355 /* janken */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -56,10 +37,6 @@
 		};
 		3B4A7BCA2E12BFFF00129355 /* jankenTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				3B4A7C092E12CA3100129355 /* Exceptions for "jankenTests" folder in "janken" target */,
-				3B4A7C072E12CA2D00129355 /* Exceptions for "jankenTests" folder in "jankenTests" target */,
-			);
 			path = jankenTests;
 			sourceTree = "<group>";
 		};
